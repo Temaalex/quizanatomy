@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Error from "./components/componentsAll/ContentError";
+import ContentBox from "./components/componentsAll/ContentBox"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+     
+      {/* Ошибка в ответе */}
+      <Route path="/0" element={<Error/>} />
+      {/* Открытие сундука */}
+      <Route path="/1" element={<ContentBox/>} />
+
+
+      {/* все кроме "*" */}
+      <Route path="*" element={<h1>404 Not Found</h1>} />
+    </Routes>
   );
 }
 
