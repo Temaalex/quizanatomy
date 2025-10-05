@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/quizanatomy/static/css/main.f855e6bc.css",
-    "main.js": "/quizanatomy/static/js/main.fcc82ed5.js",
-    "static/js/453.b201ff92.chunk.js": "/quizanatomy/static/js/453.b201ff92.chunk.js",
-    "static/media/logo.svg": "/quizanatomy/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/quizanatomy/static/css/main.bae2744d.css",
+    "main.js": "/quizanatomy/static/js/main.2df8e9dd.js",
+    "static/media/24_1.png": "/quizanatomy/static/media/24_1.c13124b90c9c47299e3b.png",
+    "static/media/24_2.png": "/quizanatomy/static/media/24_2.c13124b90c9c47299e3b.png",
+    "static/media/24_3.png": "/quizanatomy/static/media/24_3.1715b231635c37a24958.png",
+    "static/media/25_1.png": "/quizanatomy/static/media/25_1.babeb42fb7a61c5401f5.png",
+    "static/media/25_2.png": "/quizanatomy/static/media/25_2.babeb42fb7a61c5401f5.png",
+    "static/media/25_3.png": "/quizanatomy/static/media/25_3.051a90d70fbd25f62999.png",
+    "static/media/Doctor.png": "/quizanatomy/static/media/Doctor.87bcc2b9145b01dcb72d.png",
+    "static/media/Box.png": "/quizanatomy/static/media/Box.f0083bbb96ac2222c26f.png",
     "index.html": "/quizanatomy/index.html",
-    "main.f855e6bc.css.map": "/quizanatomy/static/css/main.f855e6bc.css.map",
-    "main.fcc82ed5.js.map": "/quizanatomy/static/js/main.fcc82ed5.js.map",
-    "453.b201ff92.chunk.js.map": "/quizanatomy/static/js/453.b201ff92.chunk.js.map"
+    "main.bae2744d.css.map": "/quizanatomy/static/css/main.bae2744d.css.map",
+    "main.2df8e9dd.js.map": "/quizanatomy/static/js/main.2df8e9dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.fcc82ed5.js"
+    "static/css/main.bae2744d.css",
+    "static/js/main.2df8e9dd.js"
   ]
 }
