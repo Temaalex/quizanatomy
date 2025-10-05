@@ -2,1061 +2,644 @@
   "contents": [
     {
       "id": 0,
-      "error_text_Doctor": "Ничего страшного, это не проигрыш, а опыт. Давай отдохнем чуть-чуть и попробуем снова!"
+      "error_text_Doctor": "Ничего страшного, это не проигрыш, а опыт. Давай отдохнем чуть-чуть и попробуем снова! Отсканируй QR-код заново."
     },
     {
       "id": 1,
-      "textDoctor": [
-        [
-          "Вау, как ты здорово справился, но дальше будет сложно! Дальше нужно собрать команду из отважных воинов:"
-        ],
-        ["- ЭЛЬФА с острым слухом;"],
-        ["- ЧЕЛОВЕКА с находчивостью;"],
-        ["- ГНОМА с навыками ремесленника."]
-      ]
+      "textDoctor": "Ответь на вопрос. Сколько зубов у человека?",
+      "answer": "32"
     },
     {
       "id": 2,
-      "gnom_lvl": "2",
-      "textGuilgMaster": "Молодец, так держать!",
-      "quest": "Напиши на английском слово пещера: cave",
-      "answer": "cave"
+      "textDoctor": "Вот еще вопросик. Сколько костей у взрослого человека?",
+      "answer": "206"
     },
     {
       "id": 3,
-      "gnom_lvl": 3,
-      "textGuilgMaster": "Вот еще слово!",
-      "quest": "Напиши на английском слово сундук: chest",
-      "answer": "chest"
+      "textDoctor": "Сколько ребер у человека?",
+      "answer": "24"
     },
     {
       "id": 4,
-      "gnom_lvl": 4,
-      "textGuilgMaster": "Да, да, да то что нужно, осталось еще два слова",
-      "quest": "Напиши на английском слово алмаз: diamond",
-      "answer": "diamond"
+      "textDoctor": "Сколько молочных зубов у человека?",
+      "answer": "20"
     },
     {
       "id": 5,
-      "gnom_lvl": 5,
-      "textGuilgMaster": "Последнее слово и ты станешь нашим сотрудником",
-      "quest": "Напиши на английском слово копье: spear",
-      "answer": "spear"
+      "textDoctor": "Отличная работа, ты молодец! Не забудь записать секретный код «1-3»."
     },
     {
       "id": 6,
-      "textGuilgMaster": "Молодец, ты справился! Обязательно запиши секретный код «1-3» и следуй дальше по карте!"
+      "textDoctor": "Расшифруй аббревиатуру «ДНК»",
+      "answer": {
+        "answer_1": ["Данные наших клеток", false],
+        "answer_2": ["Дезонуллисомический код", false],
+        "answer_3": ["Дезоксирибонуклеиновая кислота", true],
+        "answer_4": ["Дезонтогенез кода", false]
+      }
     },
     {
       "id": 7,
-      "elf_lvl": 1,
-      "textGuilgMaster": "Добро пожаловать в гильдию приключенцев! Я глава этой гильдии Олаф. Заполни документы для вступления в гильдию.",
-      "quest": "Напиши на английском слово ромашка: chamomile",
-      "answer": "chamomile"
+      "textDoctor": "Расшифруй аббревиатуру «ЖКТ»",
+      "answer": {
+        "answer_1": ["Жилищно-коммунальный телефон", false],
+        "answer_2": ["Жировая конституция тела", false],
+        "answer_3": ["Жирорастворимая кислота творога", false],
+        "answer_4": ["Желудочно-кишечный тракт", true]
+      }
     },
     {
       "id": 8,
-      "elf_lvl": 2,
-      "textGuilgMaster": "Молодец, так держать!",
-      "quest": "Напиши на английском слово стрела: arrow",
-      "answer": "arrow"
+      "textDoctor": "Расшифруй аббревиатуру «АД»",
+      "answer": {
+        "answer_1": ["Аппарат дыхательный", false],
+        "answer_2": ["Артериальное давление", true],
+        "answer_3": ["Альтернативный донор", false],
+        "answer_4": ["Атмосферное давление", false]
+      }
     },
     {
       "id": 9,
-      "elf_lvl": 3,
-      "textGuilgMaster": "Вот еще слово!",
-      "quest": "Напиши на английском слово куст: bush",
-      "answer": "bush"
+      "textDoctor": "Расшифруй аббревиатуру «ЧСС»",
+      "answer": {
+        "answer_1": ["Частота сердечных сокращений", true],
+        "answer_2": ["Частота сокращений сердца", false],
+        "answer_3": ["Чувствительность сокращений сердца", false],
+        "answer_4": ["Чудесный сладкий сон", false]
+      }
     },
     {
       "id": 10,
-      "elf_lvl": 4,
-      "textGuilgMaster": "Да, да, да то что нужно, осталось еще два слова",
-      "quest": "Напиши на английском слово природа: nature",
-      "answer": "nature"
+      "textDoctor": "Прекрасно получилось, вот код «2-4», продолжай двигаться вперед!",
+      "answer": {
+        "answer_1": [],
+        "answer_2": [],
+        "answer_3": [],
+        "answer_4": []
+      }
     },
     {
       "id": 11,
-      "elf_lvl": 5,
-      "textGuilgMaster": "Последнее слово и ты станешь нашим сотрудником",
-      "quest": "Напиши на английском слово проворство: agility",
-      "answer": "agility"
+      "textDoctor": "Воздух состоит из азота (78%), кислорода (21%) и других газов (1%). Чем мы дышим?",
+      "answer": {
+        "answer_1": ["Кислородом", true],
+        "answer_2": ["Азотом", false],
+        "answer_3": ["Углекислым газом", false],
+        "answer_4": ["Сероводородом", false]
+      }
     },
     {
       "id": 12,
-      "textGuilgMaster": "Молодец, ты справился! Обязательно запиши секретный код «5-1» и следуй дальше по карте!"
+      "textDoctor": "Что выделяется в процессе дыхания из организма? ",
+      "answer": {
+        "answer_1": ["Сероводород", false],
+        "answer_2": ["Кислород", false],
+        "answer_3": ["Углекислый газ", true],
+        "answer_4": ["Азот", false]
+      }
     },
     {
       "id": 13,
-      "human_lvl": 1,
-      "textGuilgMaster": "Добро пожаловать в гильдию приключенцев! Я глава этой гильдии Олаф. Заполни документы для вступления в гильдию.",
-      "quest": "Напиши на английском слово  тыква: pumpkin",
-      "answer": "pumpkin"
+      "textDoctor": "Что будет если концентрация азота будет выше на 2%, а уровень кислорода упадёт до 19%",
+      "answer": {
+        "answer_1": ["Эйфория, но не более", false],
+        "answer_2": ["Аллергическая реакция", false],
+        "answer_3": ["Кессонная болезнь", false],
+        "answer_4": ["Потеря сознания с возможным летальным исходом", true]
+      }
     },
     {
       "id": 14,
-      "human_lvl": 2,
-      "textGuilgMaster": "Молодец, так держать!",
-      "quest": "Напиши на английском слово деревня: village",
-      "answer": "village"
+      "textDoctor": "Ты справился блестяще! Важно сохранить секретный код «3-6».",
+      "answer": {
+        "answer_1": [],
+        "answer_2": [],
+        "answer_3": [],
+        "answer_4": []
+      }
     },
     {
       "id": 15,
-      "human_lvl": 3,
-      "textGuilgMaster": "Вот еще слово!",
-      "quest": "Напиши на английском слово овощи: vegetables",
-      "answer": "vegetables"
+      "textDoctor": "Что измеряет глюкометр?",
+      "answer": {
+        "answer_1": ["Уровень глюкозы в крови ", true],
+        "answer_2": ["Уровень шизофрении", false],
+        "answer_3": ["Уровень холестерина в крови", false],
+        "answer_4": ["Уровень ошибок в головном мозге", false]
+      }
     },
     {
       "id": 16,
-      "human_lvl": 4,
-      "textGuilgMaster": "Да, да, да то что нужно, осталось еще два слова",
-      "quest": "Напиши на английском слово знания: knowledge",
-      "answer": "knowledge"
+      "textDoctor": "Что измеряет тонометр?",
+      "answer": {
+        "answer_1": ["Рост ребенка", false],
+        "answer_2": ["Уровень шума", false],
+        "answer_3": ["Частоту сердечных сокращений", false],
+        "answer_4": ["Артериальное давление", true]
+      }
     },
     {
       "id": 17,
-      "human_lvl": 5,
-      "textGuilgMaster": "Последнее слово и ты станешь нашим сотрудником",
-      "quest": "Напиши на английском слово изобретатель: inventor",
-      "answer": "inventor"
+      "textDoctor": "Что измеряет пульсоксиметр?",
+      "answer": {
+        "answer_1": ["Степень насыщения крови кислородом", true],
+        "answer_2": ["Степень насыщения крови азотом", false],
+        "answer_3": ["Степень насыщения крови углекислым газом", false],
+        "answer_4": ["Частоту сердечных сокращений", false]
+      }
     },
     {
       "id": 18,
-      "textGuilgMaster": "Молодец, ты справился! Обязательно запиши секретный код «9-1» и следуй дальше по карте!"
+      "textDoctor": "Так держать, отличная работа! Только запомни код «4-51».",
+      "answer": {
+        "answer_1": [],
+        "answer_2": [],
+        "answer_3": [],
+        "answer_4": []
+      }
     },
     {
       "id": 19,
-      "gnom_lvl": 6,
-      "textGuilgMaster": "Твоё первое задание как юному искателю",
-      "quest": "Найди правильный перевод древних рун! Слово: СКАЛА",
-      "answer": {
-        "answer_1": ["Rock", true],
-        "answer_2": ["Mountain", false],
-        "answer_3": ["Stone", false],
-        "answer_4": ["Hill", false]
-      }
+      "textDoctor": "Нужно правильно соединить слова мой друг, поможешь?",
+      "answer": [
+        ["Кардиолог", "Сердце"],
+        ["Гастро-энтеролог", "Желудок"],
+        ["Невролог", "Нервная система"],
+        ["Ортопед", "Суставы"]
+      ]
     },
     {
       "id": 20,
-      "gnom_lvl": 7,
-      "textGuilgMaster": "Ого, как ловко",
-      "quest": "Найди правильный перевод древних рун! Слово: ГОРА",
-      "answer": {
-        "answer_1": ["Rock", false],
-        "answer_2": ["Mountain", true],
-        "answer_3": ["Stone", false],
-        "answer_4": ["Hill", false]
-      }
+      "textDoctor": "Нужно правильно соединить слова мой друг, поможешь?",
+      "answer": [
+        ["Эндокринолог", "Щитовидная железа"],
+        ["Офтальмолог", "Глаза"],
+        ["Стоматолог", "Зубы"],
+        ["Аллерголог", "Астма"]
+      ]
     },
     {
       "id": 21,
-      "gnom_lvl": 8,
-      "textGuilgMaster": "Вот ещё, нужен правельный перевод",
-      "quest": "Найди правильный перевод древних рун! Слово: ХОЛМ",
-      "answer": {
-        "answer_1": ["Rock", false],
-        "answer_2": ["Mountain", false],
-        "answer_3": ["Stone", false],
-        "answer_4": ["Hill", true]
-      }
+      "textDoctor": "Нужно правильно соединить слова мой друг, поможешь?",
+      "answer": [
+        ["Дерматолог", "Кожа"],
+        ["Онколог", "Рак"],
+        ["Психиатр", "Психика"],
+        ["Педиатр", "Дети"]
+      ]
     },
     {
       "id": 22,
-      "textGuilgMaster": "Молодец, ты справился! Обязательно запиши секретный код «2-4» и следуй дальше по карте!"
+      "textDoctor": "Молодчина, отлично выполнил задание! Код «5-1» записан?"
     },
     {
       "id": 23,
-      "elf_lvl": 6,
-      "textGuilgMaster": "Твоё первое задание как юному искателю",
-      "quest": "Найди правильный перевод древних рун! Слово: РОМАШКА",
-      "answer": {
-        "answer_1": ["Flower", false],
-        "answer_2": ["Сhamomile", true],
-        "answer_3": ["Rose", false],
-        "answer_4": ["Lily", false]
-      }
+      "textDoctor": "Часть лимбической системы головного мозга, отвечающая за когнитивные функции, в частности управляющая обучением и памятью, абстрактным и аналитическим мышлением.",
+      "answer": "гиппокамп"
     },
     {
       "id": 24,
-      "elf_lvl": 7,
-      "textGuilgMaster": "Ого, как ловко",
-      "quest": "Найди правильный перевод древних рун! Слово: РОЗА",
-      "answer": {
-        "answer_1": ["Flower", false],
-        "answer_2": ["Сhamomile", false],
-        "answer_3": ["Rose", true],
-        "answer_4": ["Lily", false]
-      }
+      "textDoctor": "Отдел головного мозга, отвечающий за координацию движений, регуляцию равновесия и мышечного тонуса.",
+      "answer": "мозжечок"
     },
     {
       "id": 25,
-      "elf_lvl": 8,
-      "textGuilgMaster": "Вот ещё, нужен правельный перевод",
-      "quest": "Найди правильный перевод древних рун! Слово: ЛИЛИЯ",
-      "answer": {
-        "answer_1": ["Flower", false],
-        "answer_2": ["Сhamomile", false],
-        "answer_3": ["Rose", false],
-        "answer_4": ["Lily", true]
-      }
+      "textDoctor": "Он регулирует температуру тела, выделение пота, контролирует аппетит, обмен веществ, отвечает за температуру тела и поведение.",
+      "answer": "гипоталамус"
     },
     {
       "id": 26,
-      "textGuilgMaster": "Молодец, ты справился! Обязательно запиши секретный код «6-3» и следуй дальше по карте!"
+      "textDoctor": "Хорошее дело сделал, двигайся дальше! Не потеряй код «6-3»."
     },
     {
       "id": 27,
-      "human_lvl": 6,
-      "textGuilgMaster": "Твоё первое задание как юному искателю",
-      "quest": "Найди правильный перевод древних рун! Слово: МОРКОВЬ",
+      "textDoctor": "Какого цвета вены?",
       "answer": {
-        "answer_1": ["Carrot", true],
-        "answer_2": ["Cabbage", false],
-        "answer_3": ["Pumpkin", false],
-        "answer_4": ["Tomato", false]
+        "answer_1": ["Красный", true],
+        "answer_2": ["Синий", false],
+        "answer_3": ["Фиолетовый", false],
+        "answer_4": ["Голубой", false]
       }
     },
     {
       "id": 28,
-      "human_lvl": 7,
-      "textGuilgMaster": "Ого, как ловко",
-      "quest": "Найди правильный перевод древних рун! Слово: КАПУСТА",
+      "textDoctor": "Замечательно, поздравляю тебя! Главное, сохрани код «7-54».",
       "answer": {
-        "answer_1": ["Carrot", false],
-        "answer_2": ["Cabbage", true],
-        "answer_3": ["Pumpkin", false],
-        "answer_4": ["Tomato", false]
+        "answer_1": [],
+        "answer_2": [],
+        "answer_3": [],
+        "answer_4": []
       }
     },
     {
       "id": 29,
-      "human_lvl": 8,
-      "textGuilgMaster": "Вот ещё, нужен правельный перевод",
-      "quest": "Найди правильный перевод древних рун! Слово: ПОМИДОР",
+      "textDoctor": "Почему кровь красная?",
       "answer": {
-        "answer_1": ["Carrot", false],
-        "answer_2": ["Cabbage", false],
-        "answer_3": ["Pumpkin", false],
-        "answer_4": ["Tomato", true]
+        "answer_1": [
+          "Благодаря гемоглобину - белку, который содержится в эритроцитах",
+          true
+        ],
+        "answer_2": [
+          "Благодаря эритроцитам - белку, который содержится в гемоглобине",
+          false
+        ],
+        "answer_3": [
+          "Благодаря тромбоцитам - белку, который содержится в плазме",
+          false
+        ],
+        "answer_4": ["Благодаря плазме содержащиеся в клетках крови", false]
       }
     },
     {
       "id": 30,
-      "textGuilgMaster": "Молодец, ты справился! Обязательно запиши секретный код «10-2» и следуй дальше по карте!"
+      "textDoctor": "Супер, ты хорошо постарался! Убедись, что записал код «8-6».",
+      "answer": {
+        "answer_1": [],
+        "answer_2": [],
+        "answer_3": [],
+        "answer_4": []
+      }
     },
     {
       "id": 31,
-      "gnom_lvl": 9,
-      "textGuilgMaster": "Умничка, ты мой герой",
-      "quest": "Найди правильный перевод названия цвета! Слово: BLACK",
+      "textDoctor": "Диафрагма служит для …",
       "answer": {
-        "answer_1": ["Зеленый", false],
-        "answer_2": ["Серый", false],
-        "answer_3": ["Черный", true],
-        "answer_4": ["Синий", false]
+        "answer_1": ["Доставки кислорода в кровь", false],
+        "answer_2": ["Доставки кислорода в альвеолы", false],
+        "answer_3": ["Расщепления кислорода в легких при их расширении", false],
+        "answer_4": [
+          "Расширения лёгких и разделения грудной и брюшной полостей",
+          true
+        ]
       }
     },
     {
       "id": 32,
-      "gnom_lvl": 10,
-      "textGuilgMaster": "Уфф, это было мощьно",
-      "quest": "Найди правильный перевод названия цвета! Слово: GRAY",
+      "textDoctor": "Ты умничка, прекрасно преодолел препятствие! Вот код «9-12».",
       "answer": {
-        "answer_1": ["Белый", false],
-        "answer_2": ["Зеленый", false],
-        "answer_3": ["Серый", true],
-        "answer_4": ["Фиолетовый", false]
+        "answer_1": [],
+        "answer_2": [],
+        "answer_3": [],
+        "answer_4": []
       }
     },
     {
       "id": 33,
-      "gnom_lvl": 11,
-      "textGuilgMaster": "Последний цвет, получится перевести?",
-      "quest": "Найди правильный перевод названия цвета! Слово: BROWN",
-      "answer": {
-        "answer_1": ["Серый", false],
-        "answer_2": ["Коричневый", true],
-        "answer_3": ["Желтый", false],
-        "answer_4": ["Красный", false]
-      }
+      "textDoctor": "Сколько хромосом у человека?",
+      "answer": "46"
     },
     {
       "id": 34,
-      "textGuilgMaster": "Молодец, ты справился! Обязательно запиши секретный код «3-6» и следуй дальше по карте!"
+      "textDoctor": "Здорово вышло, гордись собой! И помни про код «10-2»."
     },
     {
       "id": 35,
-      "elf_lvl": 9,
-      "textGuilgMaster": "Умничка, ты мой герой",
-      "quest": "Найди правильный перевод названия цвета! Слово: GREEN",
+      "textDoctor": "Назначение кутикул",
       "answer": {
-        "answer_1": ["Зеленый", true],
-        "answer_2": ["Серый", false],
-        "answer_3": ["Черный", false],
-        "answer_4": ["Синий", false]
+        "answer_1": [
+          "Предназначены для защиты области роста ногтевой пластины от внешних воздействий",
+          true
+        ],
+        "answer_2": [
+          "Предназначены для мастера маникюра чтобы взымать дополнительную плату",
+          false
+        ],
+        "answer_3": ["Назначения нету, они является рудиментом", false],
+        "answer_4": ["Кутикулы предназначены для защиты от заусенцев", false]
       }
     },
     {
       "id": 36,
-      "elf_lvl": 10,
-      "textGuilgMaster": "Уфф, это было мощьно",
-      "quest": "Найди правильный перевод названия цвета! Слово: YELLOW",
+      "textDoctor": "Ты победил, радуйся успеху! А теперь займёмся следующим этапом с кодом «11-44».",
       "answer": {
-        "answer_1": ["Белый", false],
-        "answer_2": ["Желтый", true],
-        "answer_3": ["Серый", false],
-        "answer_4": ["Фиолетовый", false]
+        "answer_1": [],
+        "answer_2": [],
+        "answer_3": [],
+        "answer_4": []
       }
     },
     {
       "id": 37,
-      "elf_lvl": 11,
-      "textGuilgMaster": "Последний цвет, получится перевести?",
-      "quest": "Найди правильный перевод названия цвета! Слово: WHITE",
-      "answer": {
-        "answer_1": ["Серый", false],
-        "answer_2": ["Коричневый", false],
-        "answer_3": ["Белый", true],
-        "answer_4": ["Красный", false]
-      }
+      "textDoctor": "Сколько групп крови у человека",
+      "answer": "4"
     },
     {
       "id": 38,
-      "textGuilgMaster": "Молодец, ты справился! Обязательно запиши секретный код «7-4» и следуй дальше по карте!"
+      "textDoctor": "Молодец, превосходно прошел испытание! Как делаешь успехи, не забывая код «12-5»?"
     },
     {
       "id": 39,
-      "human_lvl": 9,
-      "textGuilgMaster": "Умничка, ты мой герой",
-      "quest": "Найди правильный перевод названия цвета! Слово: RED",
+      "textDoctor": "Где находится головной мозг?",
       "answer": {
-        "answer_1": ["Красный", true],
-        "answer_2": ["Серый", false],
-        "answer_3": ["Черный", false],
-        "answer_4": ["Синий", false]
+        "answer_1": ["В грудной клетке", false],
+        "answer_2": ["В черепной коробке", true],
+        "answer_3": ["В брюшной полости", false],
+        "answer_4": ["В тазовой области", false]
       }
     },
     {
       "id": 40,
-      "human_lvl": 10,
-      "textGuilgMaster": "Уфф, это было мощьно",
-      "quest": "Найди правильный перевод названия цвета! Слово: VIOLET",
+      "textDoctor": "Оригинально и эффективно решил проблему! Просто сделай заметку с кодом «13-36».",
       "answer": {
-        "answer_1": ["Белый", false],
-        "answer_2": ["Зеленый", false],
-        "answer_3": ["Серый", false],
-        "answer_4": ["Фиолетовый", true]
+        "answer_1": [],
+        "answer_2": [],
+        "answer_3": [],
+        "answer_4": []
       }
     },
     {
       "id": 41,
-      "human_lvl": 11,
-      "textGuilgMaster": "Последний цвет, получится перевести?",
-      "quest": "Найди правильный перевод названия цвета! Слово: BLUE",
+      "textDoctor": "Какой орган отвечает за выработку инсулина?",
       "answer": {
-        "answer_1": ["Серый", false],
-        "answer_2": ["Коричневый", false],
-        "answer_3": ["Синий", true],
-        "answer_4": ["Красный", false]
+        "answer_1": ["Печень", false],
+        "answer_2": ["Поджелудочная железа", true],
+        "answer_3": ["Щитовидная желез", false],
+        "answer_4": ["Надпочечники", false]
       }
     },
     {
       "id": 42,
-      "textGuilgMaster": "Молодец, ты справился! Обязательно запиши секретный код «11-4» и следуй дальше по карте!"
+      "textDoctor": "Очень круто сработано, суперский результат! Что думаешь дальше делать с кодом «14-4»?",
+      "answer": {
+        "answer_1": [],
+        "answer_2": [],
+        "answer_3": [],
+        "answer_4": []
+      }
     },
     {
       "id": 43,
-      "gnom_lvl": 12,
-      "textGuilgMaster": "Получиться разобраться?!",
-      "quest": "Найди правильный перевод древнего чисела 105!",
+      "textDoctor": "Какой орган отвечает за равновесие?",
       "answer": {
-        "answer_1": ["One hundred and five", true],
-        "answer_2": ["One thousand five", false],
-        "answer_3": ["One hundred fifty", false],
-        "answer_4": ["One hundred and fifty-five", false]
+        "answer_1": ["Вестибулярный аппарат", true],
+        "answer_2": ["Глаз", false],
+        "answer_3": ["Нос", false],
+        "answer_4": ["Язык", false]
       }
     },
     {
       "id": 44,
-      "gnom_lvl": 13,
-      "textGuilgMaster": "Еще одна непонятная цифра",
-      "quest": "Найди правильный перевод древнего чисела 237!",
+      "textDoctor": "Красиво сделано, поздравляю с победой! Теперь следующий этап ждет с кодом «15-6».",
       "answer": {
-        "answer_1": ["One thousand thirty-seven", false],
-        "answer_2": ["Two hundred and forty-seven", false],
-        "answer_3": ["Two hundred and thirty-seven", true],
-        "answer_4": ["Two thousand thirty-seven", false]
+        "answer_1": [],
+        "answer_2": [],
+        "answer_3": [],
+        "answer_4": []
       }
     },
     {
       "id": 45,
-      "gnom_lvl": 14,
-      "textGuilgMaster": "Это вроде бы попроще!",
-      "quest": "Найди правильный перевод древнего чисела 17!",
+      "textDoctor": "Какой орган отвечает за фильтрацию крови?",
       "answer": {
-        "answer_1": ["Seventy-one", false],
-        "answer_2": ["Twenty seven", false],
-        "answer_3": ["Thirty seven", false],
-        "answer_4": ["Seventeen", true]
+        "answer_1": ["Печень", false],
+        "answer_2": ["Почки", true],
+        "answer_3": ["Легкие", false],
+        "answer_4": ["Сердце", false]
       }
     },
     {
       "id": 46,
-      "textGuilgMaster": "Молодец, ты справился! Обязательно запиши секретный код «4-5» и следуй дальше по карте!"
+      "textDoctor": "Отличный ход, впереди новые вершины! Но не упусти этот важный код «16-5».",
+      "answer": {
+        "answer_1": [],
+        "answer_2": [],
+        "answer_3": [],
+        "answer_4": []
+      }
     },
     {
       "id": 47,
-      "elf_lvl": 12,
-      "textGuilgMaster": "Получиться разобраться?!",
-      "quest": "Найди правильный перевод древнего чисела 304!",
+      "textDoctor": "Может ли человек дышать и глотать одновременно?",
       "answer": {
-        "answer_1": ["Three hundred and four", true],
-        "answer_2": ["Three thousand four", false],
-        "answer_3": ["Thirty four", false],
-        "answer_4": ["Eleven", false]
+        "answer_1": ["да", false],
+        "answer_2": ["нет", true]
       }
     },
     {
       "id": 48,
-      "elf_lvl": 13,
-      "textGuilgMaster": "Еще одна непонятная цифра",
-      "quest": "Найди правильный перевод древнего чисела 506!",
+      "textDoctor": "Классно поступил, вдохновляешься успехом? Держи в голове код «17-1».",
       "answer": {
-        "answer_1": ["Five thousand and sixty", false],
-        "answer_2": ["Five hundred and sixty", false],
-        "answer_3": ["Five hundred and six", true],
-        "answer_4": ["Fifty-six", false]
+        "answer_1": [],
+        "answer_2": []
       }
     },
     {
       "id": 49,
-      "elf_lvl": 14,
-      "textGuilgMaster": "Это вроде бы попроще!",
-      "quest": "Найди правильный перевод древнего чисела 12!",
-      "answer": {
-        "answer_1": ["One hundred and two", false],
-        "answer_2": ["One hundred and twenty", false],
-        "answer_3": ["Twenty one", false],
-        "answer_4": ["Twelve", true]
-      }
+      "textDoctor": "Нужно правильно соединить слова мой друг, поможешь?",
+      "answer": [
+        ["Дальнозоркость", "Размыто вблизи"],
+        ["Близорукость", "Размыто вдали"],
+        ["Астигматизм", "Размыто вблизи и вдаль"],
+        ["Катаракта", "Зрение замутнено"]
+      ]
     },
     {
       "id": 50,
-      "textGuilgMaster": "Молодец, ты справился! Обязательно запиши секретный код «8-6» и следуй дальше по карте!"
+      "textDoctor": "Грамотно выполнен труд, поздравляем! И смотри, не теряй код «18-3»."
     },
     {
       "id": 51,
-      "human_lvl": 12,
-      "textGuilgMaster": "Получиться разобраться?!",
-      "quest": "Найди правильный перевод древнего чисела 11!",
+      "textDoctor": "Что влияет на цвет глаз?",
       "answer": {
-        "answer_1": ["Eleven", true],
-        "answer_2": ["Twelve", false],
-        "answer_3": ["One hundred and eleven", false],
-        "answer_4": ["Seven", false]
+        "answer_1": ["Генетика", false],
+        "answer_2": ["Уровень меланина", false],
+        "answer_3": ["Раса", false],
+        "answer_4": ["Всё выше перечисленное", true]
       }
     },
     {
       "id": 52,
-      "human_lvl": 13,
-      "textGuilgMaster": "Еще одна непонятная цифра",
-      "quest": "Найди правильный перевод древнего чисела 137!",
+      "textDoctor": "Шикарный исход, достойна похвала! Скажи, куда занесёшь код «19-45»?",
       "answer": {
-        "answer_1": ["Three hundred and seven", false],
-        "answer_2": ["One hundred and seventy-three", false],
-        "answer_3": ["One hundred and thirty-seven", true],
-        "answer_4": ["One hundred and twenty-seven", false]
+        "answer_1": [],
+        "answer_2": [],
+        "answer_3": [],
+        "answer_4": []
       }
     },
     {
       "id": 53,
-      "human_lvl": 14,
-      "textGuilgMaster": "Это вроде бы попроще!",
-      "quest": "Найди правильный перевод древнего чисела 101!",
+      "textDoctor": "Что вызывает гастрит и язву?",
       "answer": {
-        "answer_1": ["One hundred and eleven", false],
-        "answer_2": ["One thousand and one", false],
-        "answer_3": ["One hundred and twenty-one", false],
-        "answer_4": ["One hundred and one", true]
+        "answer_1": ["Неправильное питание", false],
+        "answer_2": ["Бактерии хеликобактер пилори ", false],
+        "answer_3": ["Курение", false],
+        "answer_4": ["Всё выше перечисленное", true]
       }
     },
     {
       "id": 54,
-      "textGuilgMaster": "Молодец, ты справился! Обязательно запиши секретный код «12-5» и следуй дальше по карте!"
+      "textDoctor": "Браво, приятно видеть твои старания! Кстати, запомнил ли ты код «20-6»?",
+      "answer": {
+        "answer_1": [],
+        "answer_2": [],
+        "answer_3": [],
+        "answer_4": []
+      }
     },
     {
       "id": 55,
-      "gnom_lvl": 15,
-      "textGuilgMaster": "Нужно правильно соединить слова мой друг, поможешь?",
-      "answer": [
-        ["Пещера", "Cave"],
-        ["Сундук", "Chest"],
-        ["Ремесло", "Craft"],
-        ["Мастер", "Master"]
-      ]
+      "textDoctor": "Какой орган отвечает за выработку желчи?",
+      "answer": {
+        "answer_1": ["Желчный пузырь", false],
+        "answer_2": ["Поджелудочная железа", false],
+        "answer_3": ["Печень", true],
+        "answer_4": ["Кишечник", false]
+      }
     },
     {
       "id": 56,
-      "gnom_lvl": 16,
-      "textGuilgMaster": "Нужно правильно соединить слова мой друг, поможешь?",
-      "answer": [
-        ["Руда", "Ore"],
-        ["Минерал", "Mineral"],
-        ["Рубин", "Ruby"],
-        ["Алмаз", "Diamond"]
-      ]
+      "textDoctor": "Какой орган отвечает за синтез и выделения инсулина?",
+      "answer": {
+        "answer_1": ["Печень", false],
+        "answer_2": ["Поджелудочная железа", true],
+        "answer_3": ["Щитовидная железа", false],
+        "answer_4": ["Надпочечники", false]
+      }
     },
     {
       "id": 57,
-      "gnom_lvl": 17,
-      "textGuilgMaster": "Нужно правильно соединить слова мой друг, поможешь?",
-      "answer": [
-        ["Оружие", "Weapon"],
-        ["Топор", "Axe"],
-        ["Молот", "Hammer"],
-        ["Копье", "Spear"]
-      ]
+      "textDoctor": "Какой орган отвечает за синтез и выделения адреналина?",
+      "answer": {
+        "answer_1": ["Печень", false],
+        "answer_2": ["Поджелудочная железа", false],
+        "answer_3": ["Щитовидная железа", false],
+        "answer_4": ["Надпочечники", true]
+      }
     },
     {
       "id": 58,
-      "textGuilgMaster": "Молодец, ты справился! Cледуй дальше по карте!"
+      "textDoctor": "Какой орган отвечает за водно-солевой баланс и фильтрацию крови?",
+      "answer": {
+        "answer_1": ["Почки", true],
+        "answer_2": ["Печень", false],
+        "answer_3": ["Сердце", false],
+        "answer_4": ["Драгдилер", false]
+      }
     },
     {
       "id": 59,
-      "elf_lvl": 15,
-      "textGuilgMaster": "Нужно правильно соединить слова мой друг, поможешь?",
-      "answer": [
-        ["Лук", "Bow"],
-        ["Магия", "Magic"],
-        ["Стрела", "Arrow"],
-        ["Заклинание", "Spell"]
-      ]
+      "textDoctor": "Потрясающе, твоё достижение достойно восхищения! Напоминаю про код «21-1».",
+      "answer": {
+        "answer_1": [],
+        "answer_2": [],
+        "answer_3": [],
+        "answer_4": []
+      }
     },
     {
       "id": 60,
-      "elf_lvl": 16,
-      "textGuilgMaster": "Нужно правильно соединить слова мой друг, поможешь?",
+      "textDoctor": "Сопоставьте витамины:",
       "answer": [
-        ["Трава", "Grass"],
-        ["Дерево", "Tree"],
-        ["Куст", "Bush"],
-        ["Лес", "Forest"]
+        ["А", "Морковь"],
+        ["Д", "Солнечный свет"],
+        ["Е", "Масло"],
+        ["К", "Соевые бобы"]
       ]
     },
     {
       "id": 61,
-      "elf_lvl": 17,
-      "textGuilgMaster": "Нужно правильно соединить слова мой друг, поможешь?",
-      "answer": [
-        ["Природа", "Nature"],
-        ["Легенда", "Legend"],
-        ["Уши", "Ears"],
-        ["Проворство", "Agitity"]
-      ]
+      "textDoctor": "Твой прогресс радует глаз, прекрасное исполнение задания! Посмотри, сохранён ли код «22-2»?"
     },
     {
       "id": 62,
-      "textGuilgMaster": "Молодец, ты справился! Cледуй дальше по карте!"
+      "textDoctor": "С какой группой крови называют людей универсальными донорами?",
+      "answer": {
+        "answer_1": ["Группа A (II)", false],
+        "answer_2": ["Группа B (III) ", false],
+        "answer_3": ["Группа AB (IV)", false],
+        "answer_4": ["Группа O (I)", true]
+      }
     },
     {
       "id": 63,
-      "human_lvl": 15,
-      "textGuilgMaster": "Нужно правильно соединить слова мой друг, поможешь?",
-      "answer": [
-        ["Дом", "House"],
-        ["Семья", "Family"],
-        ["Деревня", "Willage"],
-        ["Поле", "Field"]
-      ]
+      "textDoctor": "Победил уверенно, заслуженно празднуй победу! Однако держи в памяти код «23-41».",
+      "answer": {
+        "answer_1": [],
+        "answer_2": [],
+        "answer_3": [],
+        "answer_4": []
+      }
     },
     {
       "id": 64,
-      "human_lvl": 16,
-      "textGuilgMaster": "Нужно правильно соединить слова мой друг, поможешь?",
-      "answer": [
-        ["Картошка", "Potato"],
-        ["Кукуруза", "Corn"],
-        ["Овощи", "Vegetables"],
-        ["Мясо", "Meat"]
-      ]
+      "textDoctor": "Найди печень",
+      "answer": {
+        "answer_1": ["1", false],
+        "answer_2": ["2 ", false],
+        "answer_3": ["3", false],
+        "answer_4": ["4", true]
+      }
     },
     {
       "id": 65,
-      "human_lvl": 17,
-      "textGuilgMaster": "Нужно правильно соединить слова мой друг, поможешь?",
-      "answer": [
-        ["Сила", "Power"],
-        ["Ум", "Mind"],
-        ["Знания", "Knowledge"],
-        ["Изобретатель", "Inventor"]
-      ]
+      "textDoctor": "Найди сердце",
+      "answer": {
+        "answer_1": ["1", false],
+        "answer_2": ["2 ", true],
+        "answer_3": ["3", false],
+        "answer_4": ["4", false]
+      }
     },
     {
       "id": 66,
-      "textGuilgMaster": "Молодец, ты справился! Cледуй дальше по карте!"
+      "textDoctor": "Найди аппендикс",
+      "answer": {
+        "answer_1": ["1", false],
+        "answer_2": ["2 ", false],
+        "answer_3": ["3", true],
+        "answer_4": ["4", false]
+      }
     },
     {
       "id": 67,
-      "textGuilgMaster": [
-        [
-          "Вау, как ты здорово справился, но дальше будет сложно! Дальше нужно собрать команду из отважных воинов:"
-        ],
-        ["- ЭЛЬФА с острым слухом;"],
-        ["- ЧЕЛОВЕКА с находчивостью;"],
-        ["- ГНОМА с навыками ремесленника."]
-      ]
+      "textDoctor": "Талантливо выполнено, приятель! Учти важность сохранения кода «24-5».",
+      "answer": {
+        "answer_1": [],
+        "answer_2": [],
+        "answer_3": [],
+        "answer_4": []
+      }
     },
     {
       "id": 68,
-      "textGuilgMaster": "Отлично герои, я рад что вы нашли друг друга! Следуйте дальше по карте и победите монстров-лягушек!"
+      "textDoctor": "Где находится селезенка?",
+      "answer": {
+        "answer_1": ["1", true],
+        "answer_2": ["2 ", false],
+        "answer_3": ["3", false],
+        "answer_4": ["4", false]
+      }
     },
-
     {
       "id": 69,
-      "quest": "Переведи слово: МИНЕРАЛ",
+      "textDoctor": "Где находится поджелудочная?",
       "answer": {
-        "answer_1": ["Mineral", true],
-        "answer_2": ["Material", false],
-        "answer_3": ["Master", false],
-        "answer_4": ["Manage", false]
+        "answer_1": ["1", false],
+        "answer_2": ["2 ", true],
+        "answer_3": ["3", false],
+        "answer_4": ["4", false]
       }
     },
     {
       "id": 70,
-      "quest": "Переведи слово: МАГИЯ",
+      "textDoctor": "Где находится щитовидная железа?",
       "answer": {
-        "answer_1": ["Spell", false],
-        "answer_2": ["Mysticism", false],
-        "answer_3": ["Magic", true],
-        "answer_4": ["Agility", false]
+        "answer_1": ["1", true],
+        "answer_2": ["2 ", false],
+        "answer_3": ["3", false],
+        "answer_4": ["4", false]
       }
     },
     {
       "id": 71,
-      "quest": "Переведи слово: ЛЕГЕНДА",
+      "textDoctor": "Настоящий герой, вот это победа! Осталось лишь зафиксировать код «25-99».",
       "answer": {
-        "answer_1": ["Fairy tale", false],
-        "answer_2": ["Legend", true],
-        "answer_3": ["Story", false],
-        "answer_4": ["Diamond", false]
+        "answer_1": [],
+        "answer_2": [],
+        "answer_3": [],
+        "answer_4": []
       }
-    },
-    {
-      "id": 72,
-      "quest": "Переведи слово: БЕЛЫЙ",
-      "answer": {
-        "answer_1": ["While", false],
-        "answer_2": ["Yellow", false],
-        "answer_3": ["Blue", false],
-        "answer_4": ["White", true]
-      }
-    },
-    {
-      "id": 73,
-      "quest": "Переведи слово: УМ",
-      "answer": {
-        "answer_1": ["Miss", false],
-        "answer_2": ["Mid", false],
-        "answer_3": ["Mind", true],
-        "answer_4": ["Knowledge", false]
-      }
-    },
-    {
-      "id": 74,
-      "textGuilgMaster": "Молодецы герои! Обязательно запишите секретный код «2» и следуйте дальше по карте чтобы победить злого гоблина!"
-    },
-    {
-      "id": 75,
-      "quest": "Переведи слово: РУДА",
-      "answer": {
-        "answer_1": ["Oreo", false],
-        "answer_2": ["Ore", true],
-        "answer_3": ["Orange", false],
-        "answer_4": ["Bow", false]
-      }
-    },
-    {
-      "id": 76,
-      "quest": "Переведи слово: ТОПОР",
-      "answer": {
-        "answer_1": ["Weapon", false],
-        "answer_2": ["Spear", false],
-        "answer_3": ["Hammer", false],
-        "answer_4": ["Axe", true]
-      }
-    },
-    {
-      "id": 77,
-      "quest": "Переведи слово: КУСТ",
-      "answer": {
-        "answer_1": ["Forest", false],
-        "answer_2": ["Tree", false],
-        "answer_3": ["Busy", false],
-        "answer_4": ["Bush", true]
-      }
-    },
-    {
-      "id": 78,
-      "quest": "Переведи слово: ЖЕЛТЫЙ",
-      "answer": {
-        "answer_1": ["While", false],
-        "answer_2": ["Yellow", true],
-        "answer_3": ["Blue", false],
-        "answer_4": ["White", false]
-      }
-    },
-    {
-      "id": 79,
-      "quest": "Переведи слово: ОВОЩИ",
-      "answer": {
-        "answer_1": ["Meal", false],
-        "answer_2": ["Vetement", false],
-        "answer_3": ["Vegetables", true],
-        "answer_4": ["Meat", false]
-      }
-    },
-    {
-      "id": 80,
-      "quest": "Напиши на английском слово: ПРИРОДА",
-      "answer": "nature"
-    },
-    {
-      "id": 81,
-      "quest": "Напиши на английском слово: СИНИЙ",
-      "answer": "blue"
-    },
-    {
-      "id": 82,
-      "textGuilgMaster": "Молодецы герои! Обязательно запишите секретный код «3» и следуйте дальше по карте чтобы победить злого скелета!"
-    },
-
-    {
-      "id": 83,
-      "quest": "Переведи слово: СИЛА",
-      "answer": {
-        "answer_1": ["Power", true],
-        "answer_2": ["Point", false],
-        "answer_3": ["Chest", false],
-        "answer_4": ["Ruby", false]
-      }
-    },
-    {
-      "id": 84,
-      "quest": "Переведи слово: МЯСО",
-      "answer": {
-        "answer_1": ["Arrow", false],
-        "answer_2": ["Mean", false],
-        "answer_3": ["Inventor", false],
-        "answer_4": ["Meat", true]
-      }
-    },
-    {
-      "id": 85,
-      "quest": "Переведи слово: ИЗОБРЕТАТЕЛЬ",
-      "answer": {
-        "answer_1": ["Inside", false],
-        "answer_2": ["Invitation", false],
-        "answer_3": ["Insert", false],
-        "answer_4": ["Inventor", true]
-      }
-    },
-    {
-      "id": 86,
-      "quest": "Переведи слово: ДЕРЕВО",
-      "answer": {
-        "answer_1": ["Tree", true],
-        "answer_2": ["Forest", false],
-        "answer_3": ["Bush", false],
-        "answer_4": ["Nature", false]
-      }
-    },
-    {
-      "id": 87,
-      "quest": "Напиши на английском слово: ТРАВА",
-      "answer": "grass"
-    },
-    {
-      "id": 88,
-      "quest": "Напиши на английском слово: ЗАКЛИНАНИЕ",
-      "answer": "spell"
-    },
-    {
-      "id": 89,
-      "quest": "Напиши на английском слово: СЕРЫЙ",
-      "answer": "grey"
-    },
-    {
-      "id": 90,
-      "quest": "Переведи слово: МАСТЕР",
-      "answer": {
-        "answer_1": ["Magic", false],
-        "answer_2": ["Master", true],
-        "answer_3": ["Monster", false],
-        "answer_4": ["Mister", false]
-      }
-    },
-    {
-      "id": 91,
-      "quest": "Переведи слово: РЕМЕСЛО",
-      "answer": {
-        "answer_1": ["Crop", false],
-        "answer_2": ["Create", false],
-        "answer_3": ["Craft", true],
-        "answer_4": ["Corn", false]
-      }
-    },
-    {
-      "id": 92,
-      "quest": "Переведи слово: КУКУРУЗА",
-      "answer": {
-        "answer_1": ["Core", false],
-        "answer_2": ["Yellow", false],
-        "answer_3": ["Careful", false],
-        "answer_4": ["Corn", true]
-      }
-    },
-    {
-      "id": 93,
-      "textGuilgMaster": "Молодецы герои! Обязательно запишите секретный код «6» и следуйте дальше по карте чтобы победить монстра Утикору!"
-    },
-    {
-      "id": 94,
-      "quest": "Переведи слово: ПЕЩЕРА",
-      "answer": {
-        "answer_1": ["Cover", false],
-        "answer_2": ["Cave", true],
-        "answer_3": ["Came", false],
-        "answer_4": ["Mountain", false]
-      }
-    },
-    {
-      "id": 95,
-      "quest": "Напиши на английском слово: КРАСНЫЙ",
-      "answer": "red"
-    },
-    {
-      "id": 96,
-      "quest": "Переведи слово: КАМЕНЬ",
-      "answer": {
-        "answer_1": ["Staff", false],
-        "answer_2": ["State", false],
-        "answer_3": ["Steel", false],
-        "answer_4": ["Stone", true]
-      }
-    },
-    {
-      "id": 97,
-      "quest": "Напиши на английском слово: РОЗА",
-      "answer": "rose"
-    },
-    {
-      "id": 98,
-      "quest": "Напиши на английском слово: РОМАШКА",
-      "answer": "chamomile"
-    },
-    {
-      "id": 99,
-      "quest": "Переведи слово: ЦВЕТОК",
-      "answer": {
-        "answer_1": ["Flower", true],
-        "answer_2": ["Floor", false],
-        "answer_3": ["Four", false],
-        "answer_4": ["From", false]
-      }
-    },
-    {
-      "id": 100,
-      "quest": "Переведи слово: ГОРА",
-      "answer": {
-        "answer_1": ["Rock", false],
-        "answer_2": ["Mountain", true],
-        "answer_3": ["Hill", false],
-        "answer_4": ["Stone", false]
-      }
-    },
-    {
-      "id": 101,
-      "quest": "Напиши на английском слово: МОРКОВЬ",
-      "answer": "carrot"
-    },
-    {
-      "id": 102,
-      "quest": "Переведи слово: КАПУСТА",
-      "answer": {
-        "answer_1": ["Pumpkin", false],
-        "answer_2": ["Vegetables", false],
-        "answer_3": ["Cabinet", false],
-        "answer_4": ["Cabbage", true]
-      }
-    },
-    {
-      "id": 103,
-      "quest": "Напиши на английском слово: ТЫКВА",
-      "answer": "pumpkin"
-    },
-    {
-      "id": 104,
-      "quest": "Переведи слово: ЛИЛИЯ",
-      "answer": {
-        "answer_1": ["Lily", true],
-        "answer_2": ["Lite", false],
-        "answer_3": ["Little", false],
-        "answer_4": ["Light", false]
-      }
-    },
-    {
-      "id": 105,
-      "quest": "Напиши на английском слово: СКАЛА",
-      "answer": "rock"
-    },
-    {
-      "id": 106,
-      "textGuilgMaster": "Молодецы герои! Обязательно запишите секретный код «7» и следуйте дальше по карте чтобы победить монстра дракона!"
-    },
-    {
-      "id": 107,
-      "quest": "Переведи слово: ЛУК",
-      "answer": {
-        "answer_1": ["Bow", true],
-        "answer_2": ["Bov", false],
-        "answer_3": ["Bouw", false],
-        "answer_4": ["Dow", false]
-      }
-    },
-    {
-      "id": 108,
-      "quest": "Переведи слово: СУНДУК",
-      "answer": {
-        "answer_1": ["Thest", false],
-        "answer_2": ["Shest", false],
-        "answer_3": ["Chest", true],
-        "answer_4": ["Shiest", false]
-      }
-    },
-    {
-      "id": 109,
-      "quest": "Переведи слово: РУБИН",
-      "answer": {
-        "answer_1": ["Rudy", false],
-        "answer_2": ["Puby", false],
-        "answer_3": ["Ruby", true],
-        "answer_4": ["Raby", false]
-      }
-    },
-    {
-      "id": 110,
-      "quest": "Переведи слово: УШИ",
-      "answer": {
-        "answer_1": ["Ears", true],
-        "answer_2": ["Mouth", false],
-        "answer_3": ["Eaes", false],
-        "answer_4": ["Easy", false]
-      }
-    },
-    {
-      "id": 111,
-      "quest": "Переведи слово: СТРЕЛА",
-      "answer": {
-        "answer_1": ["Arryw", false],
-        "answer_2": ["Arrow", true],
-        "answer_3": ["Arow", false],
-        "answer_4": ["Arrov", false]
-      }
-    },
-    {
-      "id": 112,
-      "quest": "Напиши на английском слово: ПРОВОРСТВО",
-      "answer": "agility"
-    },
-    {
-      "id": 113,
-      "quest": "Напиши на английском слово: СЕМЬЯ",
-      "answer": "family"
-    },
-    {
-      "id": 114,
-      "quest": "Напиши на английском слово: ПОЛЕ",
-      "answer": "field"
-    },
-    {
-      "id": 115,
-      "quest": "Напиши на английском слово: ДОМ",
-      "answer": "house"
-    },
-    {
-      "id": 116,
-      "quest": "Напиши на английском слово: КАРТОШКА",
-      "answer": "potato"
-    },
-    {
-      "id": 117,
-      "quest": "Напиши на английском слово: ЗНАНИЯ",
-      "answer": "knowledge"
-    },
-    {
-      "id": 118,
-      "quest": "Напиши на английском слово: МОЛОТ",
-      "answer": "hammer"
-    },
-    {
-      "id": 119,
-      "quest": "Переведи слово: ОРУЖИЕ",
-      "answer": {
-        "answer_1": ["Weapon", true],
-        "answer_2": ["Wiapon", false],
-        "answer_3": ["Waepon", false],
-        "answer_4": ["Weupon", false]
-      }
-    },
-    {
-      "id": 120,
-      "quest": "Переведи слово: ЛЕС",
-      "answer": {
-        "answer_1": ["Farest", false],
-        "answer_2": ["Farist", false],
-        "answer_3": ["Furest", false],
-        "answer_4": ["Forest", true]
-      }
-    },
-    {
-      "id": 121,
-      "quest": "Переведи слово: ПОМИДОР",
-      "answer": {
-        "answer_1": ["Tamato", false],
-        "answer_2": ["Tomuto", false],
-        "answer_3": ["Tomato", true],
-        "answer_4": ["Toumato", false]
-      }
-    },
-    {
-      "id": 122,
-      "quest": "Напиши на английском слово: ДЕРЕВНЯ",
-      "answer": "village"
-    },
-    {
-      "id": 123,
-      "quest": "Напиши на английском слово: ФИОЛЕТОВЫЙ",
-      "answer": "violet"
-    },
-    {
-      "id": 124,
-      "quest": "Напиши на английском слово: КОПЬЕ",
-      "answer": "spear"
-    },
-    {
-      "id": 125,
-      "quest": "Напиши на английском слово: ЧЕРНЫЙ",
-      "answer": "black"
-    },
-    {
-      "id": 126,
-      "quest": "Напиши на английском слово: АЛМАЗ",
-      "answer": "diamond"
-    },
-    {
-      "id": 127,
-      "textGuilgMaster": "Это был последний монстр! Герои зпишите последний кусочек кода «132» и откройте сундук с сокровищами!"
     }
   ]
 }

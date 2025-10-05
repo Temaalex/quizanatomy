@@ -11,7 +11,7 @@ const Error = () => {
       </div>
       <img className="Doctor" src={Doctor} alt="Doctor"/>
     </div>
-      <div className='words'>Попробуй отсканировать QR-код занаво</div>
+      <div className='words'></div>
     </main>
   )
   

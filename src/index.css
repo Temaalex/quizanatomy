@@ -36,12 +36,12 @@ main{
   margin: 10px;
   border-radius: 15px;
   float: left;
-  overflow: hidden;
+  overflow: auto;
 }
 .ConnentOfDoctor{
   font-family: 'Roboto Mono', monospace;
   font-weight:600;
-  font-size: 17px;
+  font-size: 20px;
   margin: 10px;
 }
 .nextButton
@@ -89,7 +89,8 @@ main{
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  text-transform: lowercase
+  text-transform: lowercase;
+  white-space: nowrap;
 }
 .Boxes{
   margin-top: 50px;
@@ -152,7 +153,7 @@ main{
    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
    padding: 0 15px 0 15px;
    overflow: hidden;
-   hyphens:manual ;
+   hyphens:auto;
    
 }
 .button:hover:not(:active) {
@@ -199,7 +200,7 @@ main{
   
 }
 .box{
- width: 200px; 
+ width: 150px; 
 }
 .imgBox{
   display: flex;
@@ -272,4 +273,9 @@ main{
 
 .contentHeroes{
   align-self: flex-end;
+}
+
+.imgs2425{
+  height: 350px;
+  overflow: scroll 
 }
