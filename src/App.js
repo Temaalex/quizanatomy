@@ -30,6 +30,10 @@ import QuizTwentyThree from './components/QuizTwentyThree';
 import QuizTwentyFour from './components/QuizTwentyFour';
 import QuizTwentyFive from './components/QuizTwentyFive'
 
+import MapOne from './components/componentsAll/MapOne';
+import MapTwo from './components/componentsAll/MapTwo';
+import QuizBossBacteria from './components/bossAll/QuizBossBacteria';
+
 function App() {
   return (
     <Routes>
@@ -94,6 +98,12 @@ function App() {
       <Route path="/64" element={<QuizTwentyFour/>} />
       {/* Двадцать пятый */}
       <Route path="/68" element={<QuizTwentyFive/>} />
+      {/* После открытия сундука, карта к бактерии*/}
+      <Route path="/72" element={<MapOne/>} />
+      {/* Босс Бактерия */}
+      <Route path="/73" element={<QuizBossBacteria/>} />
+      {/* Карта к Кариесу */}
+      <Route path="/78" element={<MapTwo/>} />
 
     </Routes>
   );

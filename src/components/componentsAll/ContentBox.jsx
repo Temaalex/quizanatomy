@@ -21,7 +21,7 @@ const ContentBox = () => {
       arr1.push(document.getElementById(index+1)?.value)
     }
     if(JSON.stringify(arr) === JSON.stringify(arr1)){
-      navigate('/1')
+      navigate('/72')
       } else {
         for (let index = 0; index < arr.length; index++) {
           if (arr [index] !== arr1 [index]){
