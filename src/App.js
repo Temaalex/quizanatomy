@@ -31,8 +31,13 @@ import QuizTwentyFour from './components/QuizTwentyFour';
 import QuizTwentyFive from './components/QuizTwentyFive'
 
 import MapOne from './components/componentsAll/MapOne';
-import MapTwo from './components/componentsAll/MapTwo';
 import QuizBossBacteria from './components/bossAll/QuizBossBacteria';
+import MapTwo from './components/componentsAll/MapTwo';
+import QuizBossCaries from './components/bossAll/QuizBossСaries';
+import MapThree from './components/componentsAll/MapThree';
+import QuizBossVirus from './components/bossAll/QuizBossVirus';
+import TheEnd from './components/componentsAll/TheEnd';
+
 
 function App() {
   return (
@@ -98,13 +103,23 @@ function App() {
       <Route path="/64" element={<QuizTwentyFour/>} />
       {/* Двадцать пятый */}
       <Route path="/68" element={<QuizTwentyFive/>} />
-      {/* После открытия сундука, карта к бактерии*/}
-      <Route path="/72" element={<MapOne/>} />
-      {/* Босс Бактерия */}
-      <Route path="/73" element={<QuizBossBacteria/>} />
-      {/* Карта к Кариесу */}
-      <Route path="/78" element={<MapTwo/>} />
 
+
+
+      {/* После открытия сундука, карта к бактерии ++*/}
+      <Route path="/72" element={<MapOne/>} />
+      {/* Босс Бактерия ++*/}
+      <Route path="/73" element={<QuizBossBacteria/>} />
+      {/* Карта к Кариесу ++*/}
+      <Route path="/78" element={<MapTwo/>} />
+      {/* Босс Кариес */}
+      <Route path="/79" element={<QuizBossCaries/>} />
+      {/* Карта к Вирусу ++*/}
+      <Route path="/89" element={<MapThree/>} />
+      {/* Босс Вирус ++*/}
+      <Route path="/90" element={<QuizBossVirus/>} />
+      {/* Финиш ++*/}
+      <Route path="/105" element={<TheEnd/>} />
     </Routes>
   );
 }

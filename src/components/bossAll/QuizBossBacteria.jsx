@@ -1,17 +1,29 @@
 import Bacteria from '../../pictures/Bacteria.png';
 import Doctor from '../../pictures/Doctor2.png';
 import data from '../../bd.json';
-import { useState } from 'react';
+import { useState, useEffect  } from 'react';
 import { useNavigate, useLocation } from "react-router-dom"
 
 const QuizBossBacteria = () => {
   let navigate = useNavigate();
   const location = useLocation()
-  
+
+  const [count, setCount] = useState(60);
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCount((prevCount) => prevCount - 1);  
+        }, 1000);
+        return () => clearInterval(interval); 
+        
+    },[]); 
+
+    
+
+
   const [bossFrog, setShake] = useState(false)
   function move(){
     setShake(true)
-    setTimeout(()=>setShake(false),200)
+    setTimeout(()=>setShake(false),1000)
   }
 
   const [heroes, setShakeHeroes] = useState(false)
@@ -23,7 +35,15 @@ const QuizBossBacteria = () => {
   let [key, setKey] = useState(Number(location.pathname.slice(1)));
   const [HPboss, setHPBoss] = useState(500)
   const [HPheroes, setHPHeroes] = useState(500)
-
+  if(count === 0){
+      moveHer()
+      setHPHeroes(HPheroes-100)
+      setCount(15) 
+      if(HPheroes === 100){
+        navigate('/0')
+        setKey(73)
+      }    
+    }
 
  function getMap(){ 
     if(key === 77){
@@ -40,19 +60,17 @@ const QuizBossBacteria = () => {
       setKey(key + 1)
       document.querySelector('.inputAppWords').value = ''
       setHPBoss(HPboss-100)
+      setCount(15)
       getMap()
      }else {
       moveHer()
       setHPHeroes(HPheroes-100)
       if(HPheroes === 100){
         navigate('/0')
-        setKey(72)
+        setKey(73)
       }
     }
   }
-
-
-
 
 
   return (
@@ -70,6 +88,7 @@ const QuizBossBacteria = () => {
     </div>
   </div>
     <div>
+      <div className='timer' >Время на ответ:{count}</div>
       <div className='words'>{data.contents[key].quest}</div>
       <div className='wrap'>
         <input id="masswge"  placeholder="Введите слово" className='inputAppWords'></input>
