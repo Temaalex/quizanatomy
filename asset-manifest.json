@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/quizanatomy/static/css/main.bae2744d.css",
-    "main.js": "/quizanatomy/static/js/main.88453ca9.js",
+    "main.css": "/quizanatomy/static/css/main.63c25aa7.css",
+    "main.js": "/quizanatomy/static/js/main.1c6c20f4.js",
     "static/media/MapOne.png": "/quizanatomy/static/media/MapOne.981636dae0303f1442ac.png",
+    "static/media/Virus.png": "/quizanatomy/static/media/Virus.780572f5189b86b5eb0d.png",
+    "static/media/Caries.png": "/quizanatomy/static/media/Caries.81436b5ceea2f27d2523.png",
     "static/media/Bacteria.png": "/quizanatomy/static/media/Bacteria.d04cda7e27ffdc2cb004.png",
     "static/media/Doctor2.png": "/quizanatomy/static/media/Doctor2.26899eab7b631dbf1a00.png",
     "static/media/24_1.png": "/quizanatomy/static/media/24_1.c13124b90c9c47299e3b.png",
@@ -13,13 +15,14 @@
     "static/media/25_3.png": "/quizanatomy/static/media/25_3.051a90d70fbd25f62999.png",
     "static/media/Doctor.png": "/quizanatomy/static/media/Doctor.87bcc2b9145b01dcb72d.png",
     "static/media/Box.png": "/quizanatomy/static/media/Box.f0083bbb96ac2222c26f.png",
+    "static/media/MapThree.png": "/quizanatomy/static/media/MapThree.cc9e626273a2bfab813f.png",
     "static/media/MapTwo.png": "/quizanatomy/static/media/MapTwo.f61917fb2429028cb883.png",
     "index.html": "/quizanatomy/index.html",
-    "main.bae2744d.css.map": "/quizanatomy/static/css/main.bae2744d.css.map",
-    "main.88453ca9.js.map": "/quizanatomy/static/js/main.88453ca9.js.map"
+    "main.63c25aa7.css.map": "/quizanatomy/static/css/main.63c25aa7.css.map",
+    "main.1c6c20f4.js.map": "/quizanatomy/static/js/main.1c6c20f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.bae2744d.css",
-    "static/js/main.88453ca9.js"
+    "static/css/main.63c25aa7.css",
+    "static/js/main.1c6c20f4.js"
   ]
 }
