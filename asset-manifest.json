@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/quizanatomy/static/css/main.63c25aa7.css",
-    "main.js": "/quizanatomy/static/js/main.1c6c20f4.js",
+    "main.js": "/quizanatomy/static/js/main.bc1e34e4.js",
     "static/media/MapOne.png": "/quizanatomy/static/media/MapOne.981636dae0303f1442ac.png",
     "static/media/Virus.png": "/quizanatomy/static/media/Virus.780572f5189b86b5eb0d.png",
     "static/media/Caries.png": "/quizanatomy/static/media/Caries.81436b5ceea2f27d2523.png",
@@ -19,10 +19,10 @@
     "static/media/MapTwo.png": "/quizanatomy/static/media/MapTwo.f61917fb2429028cb883.png",
     "index.html": "/quizanatomy/index.html",
     "main.63c25aa7.css.map": "/quizanatomy/static/css/main.63c25aa7.css.map",
-    "main.1c6c20f4.js.map": "/quizanatomy/static/js/main.1c6c20f4.js.map"
+    "main.bc1e34e4.js.map": "/quizanatomy/static/js/main.bc1e34e4.js.map"
   },
   "entrypoints": [
     "static/css/main.63c25aa7.css",
-    "static/js/main.1c6c20f4.js"
+    "static/js/main.bc1e34e4.js"
   ]
 }
