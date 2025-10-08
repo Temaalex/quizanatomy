@@ -91,7 +91,7 @@ const QuizBossBacteria = () => {
       <div className='timer' >Время на ответ:{count}</div>
       <div className='words'>{data.contents[key].quest}</div>
       <div className='wrap'>
-        <input id="masswge"  placeholder="Введите слово" className='inputAppWords'></input>
+        <input id="masswge"  placeholder="Введите число" className='inputAppWords'></input>
         <button onClick={checked} className='buttonOK'>ОК</button>
       </div>
     </div>  
