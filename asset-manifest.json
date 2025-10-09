@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/quizanatomy/static/css/main.63c25aa7.css",
-    "main.js": "/quizanatomy/static/js/main.bf63b442.js",
+    "main.js": "/quizanatomy/static/js/main.ed448d6c.js",
     "static/js/885.17866950.chunk.js": "/quizanatomy/static/js/885.17866950.chunk.js",
     "static/media/MapOne.png": "/quizanatomy/static/media/MapOne.981636dae0303f1442ac.png",
     "static/media/Virus.png": "/quizanatomy/static/media/Virus.780572f5189b86b5eb0d.png",
@@ -20,17 +20,18 @@
     "static/media/2222.mp3": "/quizanatomy/static/media/2222.f74fd0dc2f2c1654168f.mp3",
     "static/media/Box.png": "/quizanatomy/static/media/Box.f0083bbb96ac2222c26f.png",
     "static/media/MapThree.png": "/quizanatomy/static/media/MapThree.cc9e626273a2bfab813f.png",
-    "static/media/MapTwo.png": "/quizanatomy/static/media/MapTwo.f61917fb2429028cb883.png",
+    "static/media/OpenBox.mp3": "/quizanatomy/static/media/OpenBox.1c785892c1976135629b.mp3",
+    "static/media/MapTwo.png": "/quizanatomy/static/media/MapTwo.63a67ce7d24b468191e9.png",
     "static/media/22222.mp3": "/quizanatomy/static/media/22222.6f5cdd5d214abd672a6a.mp3",
     "static/media/gameOver.mp3": "/quizanatomy/static/media/gameOver.45be6961f91457a39a6d.mp3",
     "static/media/111.mp3": "/quizanatomy/static/media/111.49eb9f833e415b856b52.mp3",
     "index.html": "/quizanatomy/index.html",
     "main.63c25aa7.css.map": "/quizanatomy/static/css/main.63c25aa7.css.map",
-    "main.bf63b442.js.map": "/quizanatomy/static/js/main.bf63b442.js.map",
+    "main.ed448d6c.js.map": "/quizanatomy/static/js/main.ed448d6c.js.map",
     "885.17866950.chunk.js.map": "/quizanatomy/static/js/885.17866950.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63c25aa7.css",
-    "static/js/main.bf63b442.js"
+    "static/js/main.ed448d6c.js"
   ]
 }
