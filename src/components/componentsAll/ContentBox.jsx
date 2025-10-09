@@ -1,7 +1,8 @@
 import Doctor from '../../pictures/Doctor.png';
 import Box from '../../pictures/Box.png';
 import { useNavigate } from "react-router-dom"
-
+import useSound from 'use-sound'; 
+import OpenBox from '../../sound/OpenBox.mp3'
 
 const ContentBox = () => {
   let navigate = useNavigate();
@@ -11,13 +12,14 @@ const ContentBox = () => {
                '5', '1','3', '45', '6',
                '1', '2','41', '5','99']
 
-  
+  const [playSoundhitHeroes] = useSound(OpenBox);
   const click = () => {
     const arr1 = [];
     for (let index = 0; index < arr.length; index++) {
       arr1.push(document.getElementById(index+1)?.value)
     }
     if(JSON.stringify(arr) === JSON.stringify(arr1)){
+      playSoundhitHeroes()
       navigate('/72')
       } else {
         for (let index = 0; index < arr.length; index++) {
