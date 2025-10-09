@@ -1,6 +1,5 @@
 import data from '../../bd.json';
 import Doctor from '../../pictures/Doctor.png';
-import MapOneCaries from '../../pictures/MapTwo.png'
 
 const TheEnd = () => {
   return (

@@ -3,12 +3,20 @@ import Doctor from '../../pictures/Doctor2.png';
 import data from '../../bd.json';
 import { useState, useEffect  } from 'react';
 import { useNavigate, useLocation } from "react-router-dom"
+import useSound from 'use-sound'; 
+import soundOne from '../../sound/111.mp3'
+import soundTwo from '../../sound/22222.mp3'
+import gameOver from '../../sound/gameOver.mp3'
+import win from '../../sound/win.mp3'
 
 const QuizBossCaries = () => {
   let navigate = useNavigate();
   const location = useLocation()
 
-  
+      const [playSoundhitHeroes] = useSound(soundOne);
+      const [playSoundhitBoss] = useSound(soundTwo);
+      const [playSoundgameOver] = useSound(gameOver);
+      const [playSoundwin] = useSound(win);
 
  const [count, setCount] = useState(60);
     useEffect(() => {
@@ -24,12 +32,14 @@ const QuizBossCaries = () => {
 
   const [bossFrog, setShake] = useState(false)
   function move(){
+    playSoundhitHeroes()
     setShake(true)
     setTimeout(()=>setShake(false),1000)
   }
 
   const [heroes, setShakeHeroes] = useState(false)
   function moveHer(){
+    playSoundhitBoss()
     setShakeHeroes(true)
     setTimeout(()=>setShakeHeroes(false),200)
   }
@@ -49,6 +59,7 @@ const QuizBossCaries = () => {
 
  function getMap(){ 
     if(key === 88){
+      playSoundwin()
       move()
       key = Number(location.pathname.slice(1))
       navigate('/89')
@@ -65,6 +76,7 @@ function update_1(){
       moveHer()
       setHPHeroes(HPheroes-100)
       if(HPheroes === 100){
+        playSoundgameOver()
         navigate('/0')
         setKey(79)
       }
@@ -81,6 +93,7 @@ function update_1(){
       moveHer()
       setHPHeroes(HPheroes-100)
       if(HPheroes === 100){
+        playSoundgameOver()
         navigate('/0')
         setKey(79)
       }
@@ -97,6 +110,7 @@ function update_1(){
       moveHer()
       setHPHeroes(HPheroes - 100)
       if(HPheroes === 100){
+        playSoundgameOver()
         navigate('/0')
         setKey(79)
       }
@@ -114,6 +128,7 @@ function update_1(){
       moveHer()
       setHPHeroes(HPheroes - 100)
       if(HPheroes === 100){
+        playSoundgameOver()
         navigate('/0')
         setKey(79)
       }

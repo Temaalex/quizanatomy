@@ -3,6 +3,11 @@ import Doctor from '../../pictures/Doctor2.png';
 import data from '../../bd.json';
 import { useState, useEffect  } from 'react';
 import { useNavigate, useLocation } from "react-router-dom"
+import useSound from 'use-sound'; 
+import soundOne from '../../sound/111.mp3'
+import soundTwo from '../../sound/222.mp3'
+import gameOver from '../../sound/gameOver.mp3'
+import win from '../../sound/win.mp3'
 
 const QuizBossBacteria = () => {
   let navigate = useNavigate();
@@ -17,8 +22,10 @@ const QuizBossBacteria = () => {
         
     },[]); 
 
-    
-
+    const [playSoundhitHeroes] = useSound(soundOne);
+    const [playSoundhitBoss] = useSound(soundTwo);
+    const [playSoundgameOver] = useSound(gameOver);
+    const [playSoundwin] = useSound(win);
 
   const [bossFrog, setShake] = useState(false)
   function move(){
@@ -36,6 +43,7 @@ const QuizBossBacteria = () => {
   const [HPboss, setHPBoss] = useState(500)
   const [HPheroes, setHPHeroes] = useState(500)
   if(count === 0){
+      playSoundhitBoss()
       moveHer()
       setHPHeroes(HPheroes-100)
       setCount(15) 
@@ -47,6 +55,7 @@ const QuizBossBacteria = () => {
 
  function getMap(){ 
     if(key === 77){
+      playSoundwin()
       move()
       key = Number(location.pathname.slice(1))
       navigate('/78')
@@ -56,6 +65,7 @@ const QuizBossBacteria = () => {
     let ansver = data.contents[key].answer;
     let check = document.querySelector('.inputAppWords')?.value;
     if(check.toLowerCase() === ansver) {
+      playSoundhitHeroes()
       move()
       setKey(key + 1)
       document.querySelector('.inputAppWords').value = ''
@@ -63,9 +73,11 @@ const QuizBossBacteria = () => {
       setCount(15)
       getMap()
      }else {
+      playSoundhitBoss()
       moveHer()
       setHPHeroes(HPheroes-100)
       if(HPheroes === 100){
+        playSoundgameOver()
         navigate('/0')
         setKey(73)
       }

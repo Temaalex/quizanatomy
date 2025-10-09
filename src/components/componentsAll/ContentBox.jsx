@@ -1,12 +1,9 @@
 import Doctor from '../../pictures/Doctor.png';
-import data from '../../bd.json';
 import Box from '../../pictures/Box.png';
-import { useNavigate, useLocation } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 
 
 const ContentBox = () => {
-  const location = useLocation()
-  const key = Number(location.pathname.slice(1));
   let navigate = useNavigate();
   const arr = ['3', '4', '6', '51', '1',
                '3', '54', '6', '12', '2',
