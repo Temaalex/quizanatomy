@@ -144,7 +144,7 @@ function update_1(){
       </div>
       <div>
         <img className={bossFrog ? "bossFrog" : "bossFrog2"} src={Caries} alt="bossCaries"/>
-        <p className='HP'>Бактерия: {HPboss}HP</p>
+        <p className='HP'>Кариес: {HPboss}HP</p>
       </div>
     </div>
   </div>

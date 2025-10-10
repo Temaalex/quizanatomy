@@ -48,6 +48,7 @@ const QuizBossBacteria = () => {
       setHPHeroes(HPheroes-100)
       setCount(15) 
       if(HPheroes === 100){
+        playSoundgameOver()
         navigate('/0')
         setKey(73)
       }    

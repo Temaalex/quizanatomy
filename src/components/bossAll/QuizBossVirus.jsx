@@ -51,6 +51,7 @@ const QuizBossVirus = () => {
       setHPHeroes(HPheroes-100)
       setCount(25) 
       if(HPheroes === 100){
+        playSoundgameOver()
         navigate('/0')
         setKey(90)
       }    
@@ -98,7 +99,7 @@ const QuizBossVirus = () => {
       </div>
       <div>
         <img className={bossFrog ? "bossFrog" : "bossFrog2"} src={Virus} alt="bossBacteria"/>
-        <p className='HP'>Бактерия: {HPboss}HP</p>
+        <p className='HP'>Вирус: {HPboss}HP</p>
       </div>
     </div>
   </div>
